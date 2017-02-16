@@ -10,7 +10,15 @@
 
 <body>
 
-    {% include header.html %} {{ content }} {% include footer.html %}
+  {% include header.html %}
+  <div class="main">
+    <div class="inner">
+      <div>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
 
 </body>
 
