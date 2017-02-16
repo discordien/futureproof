@@ -1,0 +1,13 @@
+<section id="one" class="tiles">
+    {% for tool in site.tools %}
+        <article>
+                <span class="image">
+                        <img src="{{ tool.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ tool.url  | relative_url }}" class="link">{{ tool.title }}</a></h3>
+                        <p>{{ tool.description }}</p>
+                </header>
+        </article>
+    {% endfor %}
+</section>

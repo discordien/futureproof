@@ -1,0 +1,24 @@
+# Site settings
+title: Future Proof
+subtitle: We Are All In This Together
+description: A currated collection of third party resources and tools to help us through this weird future we find ourselves in.
+url: "futureproof.yolo.computer" # the base hostname & protocol for your site
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# Social settings
+500px_url:
+github_url: "https://github.com/discordien/futureproof"
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+collections:
+  tools:
+    output: true
+    permalink: '/tool/:path/'
