@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tor
-image: assets/images/onion
+image: assets/images/onion.jpg
 description: The Onion Router Protocol
 ---
 
